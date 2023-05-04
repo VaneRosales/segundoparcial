@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
 
 header,figure, nav{
     display:block;
@@ -13,17 +14,23 @@ body{
     background: black;
 }
 
-p,h1,h2,h3,h4{
-    font-family:'Poppins', sans-serif;
-    font-size: 14px;
-    color: green;
+
+h1{
+    font-size: 60px;
+    font-family: 'Sigmar', cursive;
+    text-align: center;
     margin: 6px;
+    background:-webkit-linear-gradient(black,rgb(228, 19, 19));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
 }
-h1{font-size: 24px;}
-h2{font-size: 20px;}
-h3{font-size: 18px;}
-h4{font-size: 16px;}
-p{font-size: 14px;}
+
+/* p{
+    font-size: 14px;
+    color:white
+    font-family:'Poppins', sans-serif;
+} */
 
 a{
     text-decoration: none;
@@ -32,6 +39,7 @@ a{
 
 a img{
     border: none;
+    float: inline-start;
 }
 ul{
     font-family:'Poppins', sans-serif;
@@ -58,13 +66,11 @@ ul{
 
 #logo{
     width: 20%;
-   padding: 6px 0;
+   padding: 0;
 }
 
-/* menu */
 .menu{
     width: 80%;
-
 }
 
 .menu ul{
@@ -85,4 +91,51 @@ ul{
 .menu a i{
     font-size: 30px;
     padding: 0 8px;
+}
+
+.seccionbanner{
+    width: 100%;
+    margin: 0;
+}
+#p-banner{
+    background-image: url("../imagenes/13380024_5215212.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1004px;
+    position: relative;
+
+}
+
+.seccion{
+    width: 100%;
+    margin: 0;
+}
+
+#p-inicio{
+    background: #d9d3d3 url("../imagenes/tren.png") no-repeat bottom right;
+    position:relative;
+    height: 920px;
+    padding-top: 100px;
+
+}
+
+#p-calendario{
+    background: white url("../imagenes/fondo-ciudad.png") no-repeat bottom;
+    position: relative;
+    height: 920px;
+    padding-top:100px;
+}
+
+#p-articulos{
+    background:#d9d3d3 url("../imagenes/tren.png")no-repeat bottom right;
+    position: relative;
+    height: 920px;
+    padding-top: 100px;
+
+}
+#p-mas{
+    background: white url("../imagenes/fondo-ciudad.png") no-repeat bottom;
+    position: relative;
+    height: 920px;
+    padding-top: 100px;
 }
