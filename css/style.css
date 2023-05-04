@@ -26,12 +26,6 @@ h1{
     
 }
 
-/* p{
-    font-size: 14px;
-    color:white
-    font-family:'Poppins', sans-serif;
-} */
-
 a{
     text-decoration: none;
     color: white;
@@ -59,23 +53,25 @@ ul{
     max-width: 1100px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    margin: auto;
+    justify-content: space-between;
+    margin: 30px ;
 }
 
 #logo{
     width: 20%;
-   padding: 0;
+    padding: 0;
 }
 
 .menu{
     width: 80%;
+    display: block;
 }
 
 .menu ul{
     display: flex;
     justify-content: space-between;
+    float: right;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -90,12 +86,11 @@ ul{
 }
 .menu a i{
     font-size: 30px;
-    padding: 0 8px;
+    padding: 0 5px;
 }
 
 .seccionbanner{
     width: 100%;
-    margin: 0;
 }
 #p-banner{
     background-image: url("../imagenes/13380024_5215212.jpg");
@@ -108,7 +103,6 @@ ul{
 
 .seccion{
     width: 100%;
-    margin: 0;
 }
 
 #p-inicio{
@@ -138,4 +132,53 @@ ul{
     position: relative;
     height: 920px;
     padding-top: 100px;
+}
+
+#piepagina{
+    background-color:rgb(228, 19, 19) ;
+    display: flex;
+    align-items: center;
+    padding: 1% 0;
+}
+
+.cajapie{
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    margin:20px;
+}
+
+#piepagina p{
+    flex: 50%;
+    float: left;
+    font-family:'Poppins', sans-serif;
+    text-align: flex-start;
+    font-size: 40px;
+    display: flex;
+    color: white;
+}
+
+#piepagina ul{
+    float: right;
+    margin: 5px;
+    padding: 0;
+    display: flex;
+    justify-content:flex-end;
+    align-content:space-around ;
+    list-style: none;
+}
+#piepagina ul li{
+    padding: 0 5px;
+    flex:  50%;
+    
+}
+
+#piepagina ul li a{
+    width: 50px;
+    height: 30px;
+    justify-content: space-between;
+    font-size: 50px;
+
+
 }
