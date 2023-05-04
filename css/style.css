@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+header,figure, nav{
+    display:block;
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background: black;
+}
+
+p,h1,h2,h3,h4{
+    font-family:'Poppins', sans-serif;
+    font-size: 14px;
+    color: green;
+    margin: 6px;
+}
+h1{font-size: 24px;}
+h2{font-size: 20px;}
+h3{font-size: 18px;}
+h4{font-size: 16px;}
+p{font-size: 14px;}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a img{
+    border: none;
+}
+ul{
+    font-family:'Poppins', sans-serif;
+    font-size: 14px;
+    color: white;
+}
+#cajacabecera{
+    width: 100%;
+    background:-webkit-linear-gradient(left,black,rgb(228, 19, 19));
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+#cabecera{
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+#logo{
+    width: 20%;
+   padding: 6px 0;
+}
+
+/* menu */
+.menu{
+    width: 80%;
+
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu a{
+    display: block;
+    line-height: 90px;
+    padding: 0 10px;
+    color: white;
+    font-family:'Poppins', sans-serif;
+    font-size: 40px;
+}
+.menu a i{
+    font-size: 30px;
+    padding: 0 8px;
+}
